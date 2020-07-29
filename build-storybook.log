@@ -1,0 +1,88 @@
+info @storybook/angular v5.3.19
+info 
+info clean outputDir..
+info => Copying prebuild dll's..
+info => Building manager..
+info => Loading manager config..
+info => Loading presets
+WARN   Failed to load preset: "@storybook/addon-storysource" on level 1
+ERR! Error: Cannot find module '@storybook/addon-storysource'
+ERR! Require stack:
+ERR! - /Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/presets.js
+ERR! - /Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/config.js
+ERR! - /Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/build-static.js
+ERR! - /Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/server.js
+ERR! - /Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/angular/dist/server/build.js
+ERR! - /Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/angular/bin/build.js
+ERR!     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+ERR!     at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+ERR!     at Module.require (internal/modules/cjs/loader.js:1025:19)
+ERR!     at require (internal/modules/cjs/helpers.js:72:18)
+ERR!     at interopRequireDefault (/Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/presets.js:164:18)
+ERR!     at loadPreset (/Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/presets.js:174:22)
+ERR!     at /Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/presets.js:230:20
+ERR!     at Array.reduce (<anonymous>)
+ERR!     at loadPresets (/Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/presets.js:229:18)
+ERR!     at loadPreset (/Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/presets.js:194:18)
+ERR!     at /Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/presets.js:230:20
+ERR!     at Array.reduce (<anonymous>)
+ERR!     at loadPresets (/Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/presets.js:229:18)
+ERR!     at getPresets (/Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/presets.js:279:25)
+ERR!     at _default (/Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/manager/manager-config.js:46:40)
+ERR!     at buildManager (/Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/build-static.js:163:58)
+ERR!  Error: Cannot find module '@storybook/addon-storysource'
+ERR! Require stack:
+ERR! - /Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/presets.js
+ERR! - /Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/config.js
+ERR! - /Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/build-static.js
+ERR! - /Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/server.js
+ERR! - /Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/angular/dist/server/build.js
+ERR! - /Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/angular/bin/build.js
+ERR!     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+ERR!     at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+ERR!     at Module.require (internal/modules/cjs/loader.js:1025:19)
+ERR!     at require (internal/modules/cjs/helpers.js:72:18)
+ERR!     at interopRequireDefault (/Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/presets.js:164:18)
+ERR!     at loadPreset (/Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/presets.js:174:22)
+ERR!     at /Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/presets.js:230:20
+ERR!     at Array.reduce (<anonymous>)
+ERR!     at loadPresets (/Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/presets.js:229:18)
+ERR!     at loadPreset (/Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/presets.js:194:18)
+ERR!     at /Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/presets.js:230:20
+ERR!     at Array.reduce (<anonymous>)
+ERR!     at loadPresets (/Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/presets.js:229:18)
+ERR!     at getPresets (/Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/presets.js:279:25)
+ERR!     at _default (/Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/manager/manager-config.js:46:40)
+ERR!     at buildManager (/Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/build-static.js:163:58) {
+ERR!   code: 'MODULE_NOT_FOUND',
+ERR!   requireStack: [
+ERR!     '/Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/presets.js',
+ERR!     '/Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/config.js',
+ERR!     '/Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/dist/server/build-static.js',
+ERR!     '/Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/core/server.js',
+ERR!     '/Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/angular/dist/server/build.js',
+ERR!     '/Users/henrik/Drive/Webs/taskbox/node_modules/@storybook/angular/bin/build.js'
+ERR!   ]
+ERR! }
+info => Compiling manager..
+ERR! => Failed to build the manager
+ERR! Module not found: Error: Can't resolve '@storybook/addon-knobs/register' in '/Users/henrik/Drive/Webs/taskbox'
+(node:58789) UnhandledPromiseRejectionWarning: ModuleNotFoundError: Module not found: Error: Can't resolve '@storybook/addon-knobs/register' in '/Users/henrik/Drive/Webs/taskbox'
+    at /Users/henrik/Drive/Webs/taskbox/node_modules/webpack/lib/Compilation.js:925:10
+    at /Users/henrik/Drive/Webs/taskbox/node_modules/webpack/lib/NormalModuleFactory.js:401:22
+    at /Users/henrik/Drive/Webs/taskbox/node_modules/webpack/lib/NormalModuleFactory.js:130:21
+    at /Users/henrik/Drive/Webs/taskbox/node_modules/webpack/lib/NormalModuleFactory.js:224:22
+    at /Users/henrik/Drive/Webs/taskbox/node_modules/neo-async/async.js:2830:7
+    at /Users/henrik/Drive/Webs/taskbox/node_modules/neo-async/async.js:6877:13
+    at /Users/henrik/Drive/Webs/taskbox/node_modules/webpack/lib/NormalModuleFactory.js:214:25
+    at /Users/henrik/Drive/Webs/taskbox/node_modules/enhanced-resolve/lib/Resolver.js:213:14
+    at /Users/henrik/Drive/Webs/taskbox/node_modules/enhanced-resolve/lib/Resolver.js:285:5
+    at eval (eval at create (/Users/henrik/Drive/Webs/taskbox/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:13:1)
+    at /Users/henrik/Drive/Webs/taskbox/node_modules/enhanced-resolve/lib/UnsafeCachePlugin.js:44:7
+    at /Users/henrik/Drive/Webs/taskbox/node_modules/enhanced-resolve/lib/Resolver.js:285:5
+    at eval (eval at create (/Users/henrik/Drive/Webs/taskbox/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:13:1)
+    at /Users/henrik/Drive/Webs/taskbox/node_modules/enhanced-resolve/lib/Resolver.js:285:5
+    at eval (eval at create (/Users/henrik/Drive/Webs/taskbox/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:25:1)
+    at /Users/henrik/Drive/Webs/taskbox/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:67:43
+(node:58789) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:58789) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
