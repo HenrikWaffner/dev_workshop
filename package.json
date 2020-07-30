@@ -1,6 +1,6 @@
 {
-  "name": "taskbox",
-  "version": "0.0.0",
+  "name": "Dev_Workshop",
+  "version": "0.0.1",
   "jest": {
     "preset": "jest-preset-angular",
     "setupFilesAfterEnv": [
@@ -61,7 +61,8 @@
     "e2e": "ng e2e",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "jest": "jest --watch"
+    "jest": "jest --watch",
+    "chromatic": "npx chromatic --project-token=kh56cy3vgjj"
   },
   "private": true,
   "dependencies": {
@@ -89,7 +90,6 @@
     "@storybook/addon-links": "^5.3.19",
     "@storybook/addon-notes": "^5.3.19",
     "@storybook/addon-storysource": "^5.3.19",
-    "@storybook/addons": "^5.3.19",
     "@storybook/angular": "^5.3.19",
     "@testing-library/angular": "^10.0.1",
     "@testing-library/jest-dom": "^5.11.2",

@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+@import "font-muli.css";
+
+body{
+	font-family:"Muli", serif !important;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
